@@ -1,0 +1,28 @@
+Data Description:
+
+Weekend - (Binary): trận đấu có được diễn ra vào cuối tuần (T7, CN) hay không?
+Month - (Integer): thời điểm diễn ra trận đấu (Tháng)
+Top Referee - (Binary): trận đấu có được bắt bởi các trọng tài hàng đầu hay không?
+Home Avg Goal - (Float): số bàn thắng trung bình của đội chủ nhà trước trận đấu chuẩn bị xảy ra (chỉ tính kết quả của những trận thi đấu trên sân nhà)
+Home Avg Opp Goal - (Float): số bàn thua trung bình của đội chủ nhà trước trận đấu chuẩn bị xảy ra (chỉ tính kết quả của những trận thi đấu trên sân nhà)
+Home Diff Goal - (Integer): hiệu số bàn thắng thua của đội chủ nhà trước trận đấu chuẩn bị xảy ra (chỉ tính kết quả của những trận thi đấu trên sân nhà)
+Home Rank - (Integer): vị trí xếp hạng của đội chủ nhà trước trận đấu chuẩn bị xảy ra (chỉ tính kết quả của những trận thi đấu trên sân nhà)
+Last Season Home - (Integer): vị trí xếp hạng của đội chủ nhà ở mùa giải trước 
+Home Values - (Float): giá trị đội hình của đội chủ nhà trước trận đấu chuẩn bị xảy ra
+Home Win Percent - (Float): tỉ lệ thắng của đội chủ nhà trước trận đấu chuẩn bị xảy ra (chỉ tính kết quả của những trận thi đấu trên sân nhà)
+Home Lose Percent - (Float): tỉ lệ thua của đội chủ nhà trước trận đấu chuẩn bị xảy ra (chỉ tính kết quả của những trận thi đấu trên sân nhà)
+Avg Goal (diff) - (Float): chênh lệch số bàn thắng trung bình của đội chủ nhà và đội khách trước trận đấu chuản bị xảy ra (với đội khách chỉ tính kết quả của những trận thi đấu trên sân khách)
+Avg Opp Goal (diff) - (Float): chênh lệch số bàn thua trung bình của đội chủ nhà và đội khách trước trận đấu chuẩn bị xảy ra (với đội khách chỉ tính kết quả của những trận thi đấu trên sân khách)
+Diff Goal (diff) - (Integer): chênh lệch hiệu số bàn thắng thua của đội chủ nhà và đội khách trước trận đấu chuẩn bị xảy ra (với đội khách chỉ tính kết quả của những trận thi đấu trên sân khách)
+Rank (diff) - (Integer): chênh lệch vị trí xếp hạng của đội chủ nhà và đội khách trước trận đấu chuẩn bị xảy ra (với đội khách chỉ tính kết quả của những trận thi đấu trên sân khách)
+Last Season (diff) - (Integer): chênh lệch vị trí xếp hạng của đội chủ nhà và đội khách ở mùa giải trước
+Values (diff) - (Float): chênh lệch giá trị đội hình của đội chủ nhà và đội khách trước trận đấu chuẩn bị xảy ra 
+Win Percent (diff) - (Float): chênh lệch tỉ lệ thắng của đội chủ nhà và đội khách trước trận đấu chuẩn bị xảy ra (với đội khách chỉ tính kết quả của những trận thi đấu trên sân khách)
+Lose Percent (diff) - (Float): chênh lệch tỉ lệ thua của đội chủ nhà và đội khách trước trận đấu chuẩn bị xảy ra (với đội khách chỉ tính kết quả của những trận thi đấu trên sân khách)
+Top Win Home - (Binary): đội chủ nhà có thuộc top những đội bóng hay thắng không?
+Top Draw Home - (Binary): đội chủ nhà có thuộc top những đội bóng hay hòa không?
+Top Lose Home - (Binary): đội chủ nhà có thuộc top những đội bóng hay thua không?
+Top Win Away - (Binary): đội khách có thuộc top những đội bóng hay thắng không?
+Top Draw Away - (Binary): đội khách có thuộc top những đội bóng hay hòa không?
+Top Lose Away - (Binary): đội khách có thuộc top những đội bóng hay thua không?
+Outcome - (Target): -1 nghĩa là đội chủ nhà thua, 0 nghĩa là hai đội hòa nhau, 1 nghĩa là đội chủ nhà giành chiến thắng 
